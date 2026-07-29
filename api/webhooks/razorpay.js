@@ -56,8 +56,33 @@ export default async function handler(req, res) {
       await resend.emails.send({
         from: "Brushes by Harshita <payments@brushesbyharshita.com>",
         to: email,
-        subject: "Payment received!",
-        html: `<p>Thanks for your payment. Payment ID: ${paymentId}</p>`,
+        subject: "You are registered!",
+        html: `<div style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6;">
+  <p>Thank you for joining my painting workshop.</p>
+
+  <p>Join my private Telegram group for updates and announcements using this link:</p>
+
+  <p>
+    
+      href="https://t.me/+1a2b3c4d5e6f7g8h9i"
+      style="background-color:#4caf50; border:none; color:#ffffff; padding:10px 20px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; border-radius:4px;"
+    >
+      Join Telegram Group
+    </a>
+  </p>
+
+  <p>On the day of the workshop, you can join the live session using this button:</p>
+
+  <p>
+    
+      href="https://zoom.us/j/1234567890"
+      style="background-color:#4caf50; border:none; color:#ffffff; padding:10px 20px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; border-radius:4px;"
+    >
+      Join Zoom Session
+    </a>
+  </p>
+</div>
+`,
       });
     } catch (err) {
       console.error("Email send failed:", err);
