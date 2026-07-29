@@ -45,7 +45,7 @@ export default async function handler(req, res) {
     const payment = payload.payload.payment.entity;
     const paymentPageId = payment.notes?.payment_page_id; // check this too
 
-    console.log(payload);
+    console.log(payload.payload.payment);
 
     if (paymentPageId !== "pl_TJOTfBk334NpKZ") {
       return res.status(200).send("Ignored - not our page");
