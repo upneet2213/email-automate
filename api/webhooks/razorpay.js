@@ -72,49 +72,17 @@ export default async function handler(req, res) {
   <p>Thank you for joining my painting workshop.</p>
 
   <p>
-    Join my private Telegram group for updates and announcements using this
-    link:
-      <a
-      href="https://t.me/+1a2b3c4d5e6f7g8h9i"
-      style="
-        background-color: #4caf50;
-        border: none;
-        color: #ffffff;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 4px;
-      "
-    />
+    Join my private Telegram group for updates and announcements:
+    <a href="https://t.me/+1a2b3c4d5e6f7g8h9i"
+      >https://t.me/+1a2b3c4d5e6f7g8h9i</a
+    >
   </p>
-
-
-  
-      
-
-
   <p>
-    On the day of the workshop, you can join the live session using this button:
-    <a
-      href="https://zoom.us/j/1234567890"
-      style="
-        background-color: #4caf50;
-        border: none;
-        color: #ffffff;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 4px;
-      "
-    />
+    On the day of the workshop, join the live session here:
+    <a href="https://zoom.us/j/1234567890">https://zoom.us/j/1234567890</a>
   </p>
-
-  
 </div>
+
 
 `,
       });
