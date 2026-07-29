@@ -43,6 +43,16 @@ export default async function handler(req, res) {
 
   if (payload.event === "payment.captured") {
     const payment = payload.payload.payment.entity;
+    const paymentPageId =
+      payment.notes?.payment_page_id ||
+      payment.description || // sometimes carries page name
+      payment.invoice_id; // check this too
+
+    console.log(paymentPageId, "paymentPageId");
+
+    if (paymentPageId !== "WULsG5h") {
+      return res.status(200).send("Ignored - not our page");
+    }
     const paymentId = payment.id;
     const email = payment.email;
 
