@@ -43,10 +43,7 @@ export default async function handler(req, res) {
 
   if (payload.event === "payment.captured") {
     const payment = payload.payload.payment.entity;
-    const paymentPageId =
-      payment.notes?.payment_page_id ||
-      payment.description || // sometimes carries page name
-      payment.invoice_id; // check this too
+    const paymentPageId = payment.notes?.payment_page_id; // check this too
 
     console.log(paymentPageId, "paymentPageId");
 
