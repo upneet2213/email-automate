@@ -49,7 +49,7 @@ export default async function handler(req, res) {
     try {
       // TODO: idempotency check goes here (see step 5)
       await resend.emails.send({
-        from: "harshita.art98@gmail.com",
+        from: "Brushes by Harshita <payments@brushesbyharshita.com>",
         to: email,
         subject: "Payment received!",
         html: `<p>Thanks for your payment. Payment ID: ${paymentId}</p>`,
