@@ -50,7 +50,7 @@ export default async function handler(req, res) {
 
     console.log(paymentPageId, "paymentPageId");
 
-    if (paymentPageId !== "WULsG5h") {
+    if (paymentPageId !== "pl_TJOTfBk334NpKZ") {
       return res.status(200).send("Ignored - not our page");
     }
     const paymentId = payment.id;
