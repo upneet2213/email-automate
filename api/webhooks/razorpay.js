@@ -72,13 +72,13 @@ export default async function handler(req, res) {
   <p>Thank you for joining my painting workshop.</p>
 
   <p>
-    Join my private Telegram group for updates and announcements:
+Workshop access — Telegram
     <a href="https://t.me/+1a2b3c4d5e6f7g8h9i"
       >https://t.me/+1a2b3c4d5e6f7g8h9i</a
     >
   </p>
   <p>
-    On the day of the workshop, join the live session here:
+Live session (day of workshop)
     <a href="https://zoom.us/j/1234567890">https://zoom.us/j/1234567890</a>
   </p>
 </div>
