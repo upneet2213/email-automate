@@ -1,4 +1,8 @@
 {
   "name": "my-webhook",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "razorpay": "^2.9.8",
+    "resend": "^6.18.1"
+  }
 }
