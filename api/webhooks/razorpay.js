@@ -1,5 +1,6 @@
 import crypto from "crypto";
 import { Resend } from "resend";
+import { html } from "../../html.js";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -57,34 +58,7 @@ export default async function handler(req, res) {
         from: "Brushes by Harshita <payments@brushesbyharshita.com>",
         to: email,
         subject: "You are registered!",
-        html: `<div
-  style="
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  "
->
-  <p>Thank you for joining my painting workshop.</p>
-
-  <p>
-Workshop access — Telegram
-    <a href="https://t.me/+1a2b3c4d5e6f7g8h9i"
-      >https://t.me/+1a2b3c4d5e6f7g8h9i</a
-    >
-  </p>
-  <p>
-Live session (day of workshop)
-    <a href="https://zoom.us/j/1234567890">https://zoom.us/j/1234567890</a>
-  </p>
-</div>
-
-
-`,
+        html,
       });
     } catch (err) {
       console.error("Email send failed:", err);
