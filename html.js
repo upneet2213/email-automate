@@ -22,8 +22,8 @@ export const html = `<!doctype html>
     <p>
       Please join the Telegram group as I’ll be sharing all the details
       regarding the workshop here:<br />
-      <a href="https://t.me/+23A3D3hzkvU2ZDU9" target="_blank"
-        >https://t.me/+23A3D3hzkvU2ZDU9</a
+      <a href="https://t.me/+jFmKQz0fMZ4zYWZl" target="_blank"
+        >https://t.me/+jFmKQz0fMZ4zYWZl</a
       >
     </p>
 
@@ -31,9 +31,9 @@ export const html = `<!doctype html>
       Here is the link to the workshop! Join on 8th August sharp at 9pm IST
       (10:30 PM EST):<br />
       <a
-        href="https://www.youtube.com/live/Cbcz7TmwCsY?si=6AZLdFmzhSzsKDde"
+        href="https://youtube.com/live/X8NP4-psxfU?feature=share"
         target="_blank"
-        >https://www.youtube.com/live/Cbcz7TmwCsY?si=6AZLdFmzhSzsKDde</a
+        >https://youtube.com/live/X8NP4-psxfU?feature=share</a
       >
     </p>
 
