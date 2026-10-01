@@ -28,7 +28,7 @@ export const html = `<!doctype html>
     </p>
 
     <p>
-      Here is the link to the workshop! Join on 8th August sharp at 9pm IST
+      Here is the link to the workshop! Join on 10th October sharp at 9pm IST
       (10:30 PM EST):<br />
       <a
         href="https://youtube.com/live/X8NP4-psxfU?feature=share"
